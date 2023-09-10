@@ -8,18 +8,18 @@ Created on Wed Dec 21 22:06:42 2022
 from distutils.core import setup
 from setuptools import find_packages
 
-with open("README.rst", "r",encoding='utf-8') as f:
+with open("README.md", "r",encoding='utf-8') as f:
     long_description = f.read()
 
 setup(name='llmtorch',  # 包名
-      version='1.3.6',  # 版本号
-      description='model for pytorch',
+      version='1.0.5',  # 版本号
+      description='llm model process for pytorch',
       long_description=long_description,
       author='zhengxx12',
       author_email='1027763372@qq.com',
-      url='https://github.com/Hello-MLClub/m2pytorch',
+      url='https://github.com/Hello-MLClub/llmtorch',
       license='BSD License',
-      install_requires=[],
+      install_requires=['torch>=1.9.0','torchtext'],
       # 'torch==2.0.0',  # 另一个示例依赖项
       packages=find_packages(),
       platforms=["all"],
@@ -37,4 +37,5 @@ setup(name='llmtorch',  # 包名
           'Programming Language :: Python :: 3.8',
           'Topic :: Software Development :: Libraries'
       ],
+      keywords="machine-learning, deep-learning, ML, DL, pytorch, torch, llm",
       )
