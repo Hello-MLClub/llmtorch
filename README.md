@@ -1,5 +1,5 @@
 # llmtorch
-llmtorch 是一个基于pytorch 的大模型和深度学习工具，让模型训练更容易！:smile::smile:
+llmtorch 是一个基于pytorch 的大模型和深度学习工具，让建模更容易！:smile::smile:
 
 - 代码基于 Pytorch 框架，coding 优雅且简单；
 
